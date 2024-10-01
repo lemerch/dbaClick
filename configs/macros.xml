@@ -1,0 +1,10 @@
+<clickhouse>
+    <distributed_ddl>
+            <path>/clickhouse/example_cluster/ddl</path>
+    </distributed_ddl>
+    <macros>
+        <cluster>example</cluster>
+        <shard>${SHARD}</shard>
+        <replica>${REPLICA}</replica>
+    </macros>
+</clickhouse>
